@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 1rem 1.2rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 1rem 1.2rem;
+}
+
+.hw-section {
+  background-color: #eaeaea; 
+  padding: 0.8rem;
+  margin-bottom: 1rem; /* space between homework sections */
+  border-radius: 5px;
+}
+
+.hw-section h3 {
+  margin-top: 0;
+}
+
+.hw-section ul {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.hw-section li {
+  margin: 0.3rem 0;
+}
+
+.hw-section a {
+  text-decoration: none;
+  color: blue;
+}
+
+.hw-section a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 1rem;
+  background-color: #f4f4f4;
+}
